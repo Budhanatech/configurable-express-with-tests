@@ -1,0 +1,27 @@
+[
+    {
+        "method": "get",
+        "url": "/person",
+        "requestProcessor": "getAllPersons"
+    }, 
+    {
+        "method": "post",
+        "url": "/person",
+        "requestProcessor": "addPerson"
+    },
+    {
+        "method": "delete",
+        "url": "/person/:id",
+        "requestProcessor": "deletePerson"
+    },
+    {
+        "method": "get",
+        "url": "/person/:id",
+        "requestProcessor": "getPerson"
+    },
+    {
+        "method": "patch",
+        "url": "/person/:id",
+        "requestProcessor": "updatePerson"
+    }
+]
